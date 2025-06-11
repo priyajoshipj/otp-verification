@@ -2,6 +2,9 @@
 
 A modern, secure, and user-friendly email OTP (One-Time Password) verification system built with Next.js 13+, TypeScript, and Tailwind CSS.
 
+# Testing OTP
+if current OTp not work due to free trial use 123456
+
 ## 🌟 Features
 
 - **Email OTP Verification**: Secure two-step verification process
