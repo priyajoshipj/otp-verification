@@ -26,6 +26,7 @@ export default function Home() {
         setMessage(error?.error || 'Failed to send OTP');
       }
     } catch (err) {
+      console.error(err)
       setMessage('Unexpected error while sending OTP');
     }
   };
@@ -41,6 +42,7 @@ export default function Home() {
       const data = await res.json();
       setMessage(data.success ? 'OTP verified ✅' : data.error || 'Verification failed');
     } catch (error) {
+      console.error(error)
       setMessage('Something went wrong during verification');
     }
   };

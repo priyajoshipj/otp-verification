@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { generateOTP, getOtp, saveOtp } from '../../utils/otpStore';
+import { generateOTP, saveOtp } from '../../utils/otpStore';
 import { sendOtpEmail } from '../../utils/emailService';
 
 export async function POST(req: Request) {
