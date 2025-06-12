@@ -2,6 +2,9 @@
 
 A modern, secure, and user-friendly email OTP (One-Time Password) verification system built with Next.js 13+, TypeScript, and Tailwind CSS.
 
+https://github.com/user-attachments/assets/25a96645-7bc5-482d-8bef-903ba50534f5
+
+
 # Testing OTP
 if current OTp not work due to free trial use 123456
 
@@ -122,6 +125,9 @@ yarn dev
    ```
    RESEND_API_KEY=re_your_api_key_here
    ```
+
+
+
 
 ### Deployment Checklist
 
